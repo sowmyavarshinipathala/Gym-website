@@ -1,0 +1,436 @@
+
+<html>
+<head>
+ <script src="https://kit.fontawesome.com/a811ec11ff.js" crossorigin="anonymous"></script>
+<title>Gold's Gym</title>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+}
+
+                                             /* -------------- Home --------------*/
+.home{
+    background-image: url('c/background.jpg');
+    z-index: -1;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.home input:hover{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+                                              /* ------- Nav ---------- */
+nav{
+ position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(2,2,2);
+    width: 100%;
+    height: 64px;
+    z-index: 1;
+   
+}
+nav ul li{
+    display: inline;
+    float: right;
+}
+nav ul li a{
+     margin-right: 20px;
+    display: block;
+    font-family:  Arial, sans-serif;
+    color:rgb(255, 11, 91) ;
+    padding-top: 5px ;
+    margin-left: 25px;
+    padding-left: 7px ;
+    padding-right: 7px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 25px;
+   
+   
+}
+
+nav ul li #nav:hover{
+    color: rgb(175, 231, 61);
+    transition: 0.3s ease;
+    border-bottom: 4px solid chartreuse;
+    border-radius: 2px;
+}
+.head{
+    padding: 140px 90px;
+}
+.home h1{
+    color: rgb(252, 58, 58);
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+}
+
+                                            /* --------- ABout ----------- */
+
+#about{
+    height: 600px;
+    width: 100%;
+    z-index: 1;
+   background-color:rgb(225,225,225);
+}
+#about h1{
+    margin-top: 130px;
+    margin-left: 500px;
+    margin-right:550px;
+    font-size: 34px;
+    padding:30px;
+    border-bottom: 8px solid red;
+    border-radius: 5px;
+    font-family: 'Kaushan Script', cursive;
+} 
+#about iframe{
+   width: 530px;
+   height: 400px;
+   float: left;
+   margin-left: 120px;
+   margin-right: 50px;
+   margin-top: -10px;
+} 
+#about p{
+    font-size: 23px;
+    margin-right: 110px;
+    margin-top: 10px;
+    
+} 
+#about input[type=submit]{
+float:right;
+    padding: 10px 19px;
+    font-size: 20px;
+    margin-top: -30px;
+    background-color: rgb(230, 36, 45);
+    color: white;
+    border-radius: 5px;
+}
+#about input[type=submit]:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+                                        /* --------- Packages ----------- */
+
+#Package{
+  height: 800px;
+  width: 100%;
+
+}
+
+td:hover{
+background-color:yellow;
+color:chartreuse;
+}
+                                              /* --------contact ---------- */
+
+#contact{
+  height: 660px;
+  width: 100%;
+background-color:gold;
+}
+#contact h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    border-radius: 5px;
+    margin-left: 605px;
+    margin-right: 400px;
+    margin-top: -10px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: rgb(15, 15, 15);
+    border-bottom: 8px solid rgb(255, 47, 47);
+}
+.box-1{
+    width: 45%;
+    height: 415px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.box-1 h2{
+    margin-left: 40px;
+    padding-top: 10px;
+    font-size: 37px;
+    padding-bottom: 10px;
+    color: rgb(200, 0, 0);
+    
+}
+.box-1 p{
+    margin-left: 40px;
+    margin-bottom: 7px;
+    font-size: 22px;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+} 
+#icon{
+    margin-left: 0px;
+    margin-top: 5px;
+    color: rgb(240, 36, 36);
+}
+
+
+.box-2{
+    width: 46%;
+    height: 415px;
+   
+    float: right;
+   margin-right:30px;
+    margin-top: -20px;
+}
+.box-2 h2{
+    margin-left: 40px;
+    padding-top: 20px;
+    font-size: 27px;
+    padding-bottom: 10px;
+    
+}
+input[type=text],input[type=email]{
+    height: 45px;
+    width: 450px;
+    margin: 20px;
+    border-radius: 8px;
+    border-color: rgb(192, 192, 192);
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: white;
+}
+#contact input[type=submit]{
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color:rgb(255, 28, 28) ;
+    color:white;
+    border-radius: 70px;
+    margin: 20px;
+    box-shadow: none;
+}
+#contact  input[type=submit]:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+                                                    /* --------- FAQs ----------- */
+
+#F{
+  height: 660px;
+  width: 100%;
+background-color:#FBF6D9;
+}
+#F h1{
+    
+    font-size: 30px;
+   font-family:bhaloo bhai;
+   
+    padding-top:60px;
+   padding-left:195px;
+   color:rgb(0,0,0);
+}
+
+
+
+</style>
+</head>
+                                                   
+<body>
+                                                       <!----------- Home ------------>
+ <div class="home">
+        <nav>
+            <ul>
+                <li style=" float: left; "><a href="#" style=" font-family: 'Bangers', cursive; font-size: 35px; margin-left: 93px; color:black;
+                padding: 20px 25px;">.</a>
+               <img src="c/logo.jpg" style="height: 65px; margin-top: -106px; margin-left: -90px; z-index: 0;"></li>
+ <li><a href="#F" style="padding: 10px 19px;
+    font-size: 20px;
+    margin-top: 0px;
+    background-color: rgb(230, 36, 45);
+    color: white;
+    border-radius: 5px;"><input type="button" value="FAQs"> </a></li>
+ <li><a href="#contact" style="margin-right: 200px;" id="nav">Contect Us</a></li>
+ <li><a href="#Package" id="nav">Package</a></li>
+ <li><a href="#about" id="nav">About</a></li>
+ <li><a href="#" id="nav">Home</a></li>
+                
+ </ul>
+        </nav>
+ <div class="head">
+            <h1>Don't stop till you drop! <br> Be an inspiration.</h1>
+         <img src="c/muscle-hi.png" style="margin-left: 555px; margin-top: -205px; height: 180px;">
+            <p style="padding-top: 20px; font-size: 22px; color: blanchedalmond; font-family: 'Satisfy', cursive;"> Physical Fitness is very important 
+                in a person’s life. Physically fit people are <br>much more 
+                productive &  successful in their life,  not only that; they hold a lot<br> of health benefits over 
+                the people who are not  fit.  They live their life to the <br>full extent, and they  don’t have to 
+                worry about their health.
+            </p>
+        </div>
+                                 <!--------------  About --------------->
+
+    <div id="about">
+        <h1>About Us</h1>
+            <div class="container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UlqQ3hg3tPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>
+                    Gold's gym in one of the top Gyms in India with a motiveto make India fit we have 156 gyms present
+                    in 95 cities across India, along with Training Institutes.Come join the fitness revolution with us.
+                    <br> Today, Gold's Gym has over 700 facilities. It is the largest international gym chain in the world
+                    recognized for its passion, unique heritage, and experience as the final authority in fitness and lifestyle.
+                     The India chapter of Gold's Gym started in 2002.
+                      From the Certified Personal Training, the latest group exercise classes, and, to basketball courts, childcare, 
+                      and more,Gold's Gym has the best gym amenities to help you workout, train, recover and more.  <br>
+                  <form action="https://en.wikipedia.org/wiki/Gold%27s_Gym">
+                <input type="submit" value="More Details"/>
+              </form>
+                </p>
+                 
+        </div>
+    </div>
+                                      <!--------------  packages --------------->
+<div id="Package">
+ <div style="background-color: #FCDFFF ;border-style: groove ;">
+    <h1 align="center" style="color:hotpink;">Plans & Pricing</h1>
+    <h3 align="center" style="color:palevioletred;"> How much does it costs?</h3>
+    <p align="center" style="color:black;"> <font face="verdana"  size="5px"  ></font>These rates are indicative and subject to change.Please reach out to throutlet directly to find out the latest rates.</p>
+</div>
+    <table style="background-color: powderblue; ">
+        <tr>
+               <td style="background-color:lenen;border-style:ridge;" height="40%" width="25%"><font  face="arial" size="5px"><a href="#" title="Yearly-Plan">Yearly-Plan</a></font> <p style="color: cadetblue;"> <font  face="arial" size="5px">&#8377; 11,000 for 12 month(s)</font> </p>
+                <p style="color:palevioletred;"> <font   size="3px">It includes Weight,Training,Cardio,Steam Bath,Aerobic Steps,Power,yoga,Floor Exercise,Stretch Bands,Kickboxing,TRF,Functional Training,Crossfit Training,Mini hurdles for a period of 3 months</font></p><ul >
+                   <li><a href="#" title="gym"> gym</a></li>
+                    <li><a href="#" title="exercise"> exercise</a></li>
+                    <li><a href="#" title="weight lose"> weight loss</a></li>
+                    <li><a href="#" title="weight training"> weight training</a></li>
+                    <li><a href="#" title="floor training"> floor exercise</a></li>
+                    <li><a href="#" title="cardio"> cardio</a></li>
+                    <li><a href="#" title="steam"> steam</a></li>
+                    <li><a href="#" title="shower"> shower</a></li>
+                    <li><a href="#" title="yoga"> yoga</a></li>
+                    <li><a href="#" title="aerobics"> aerobics</a></li>
+                    <li><a href="#" title="kickboxing"> kickboxing </a></li>
+                    <li><a href="#" title="strength training"> strength training</a></li>
+                    </ul>
+             </td>
+ <td style="background-color:lenen;border-style:ridge;"  height="40%" width="25%"><font  face="arial" size="5px"><a href="#" title="Half-Yearly Plan">Half-Yearly Plan</a></font> <p style="color: cadetblue;"> <font  face="arial" size="5px">&#8377; 7,500 for 6 month(s)</font> </p>
+                <p style="color:palevioletred;"> <font   size="3px">It includes Weight,Training,Cardio,Steam Bath,Aerobic Steps,Power,yoga,Floor Exercise,Stretch Bands,Kickboxing,TRF,Functional Training,Crossfit Training,Mini hurdles for a period of 3 months</font></p><ul >
+                    <li><a href="#" title="gym"> gym</a></li>
+                    <li><a href="#" title="exercise"> exercise</a></li>
+                    <li><a href="#" title="weight lose"> weight loss</a></li>
+                    <li><a href="#" title="weight training"> weight training</a></li>
+                    <li><a href="#" title="floor training"> floor exercise</a></li>
+                    <li><a href="#" title="cardio"> cardio</a></li>
+                    <li><a href="#" title="steam"> steam</a></li>
+                    <li><a href="#" title="shower"> shower</a></li>
+                    <li><a href="#" title="yoga"> yoga</a></li>
+                    <li><a href="#" title="aerobics"> aerobics</a></li>
+                    <li><a href="#" title="kickboxing"> kickboxing </a></li>
+                    <li><a href="#" title="strength training"> strength training</a></li>
+                    </ul>
+            </td>
+
+
+
+            <td style="background-color:lenen;border-style:ridge;" width="25%"> <font  face="arial" size="5px">
+            <a href="#" title="Quaterly Plan">Quaterly  Plan</a></font>
+            <p style="color: cadetblue;"> <font  face="arial" size="5px">&#8377; 5,500 for 3 month(s)</font> </p>
+            <p style="color:palevioletred;"> <font   size="3px">It includes Weight,Training,Cardio,Steam Bath,Aerobic Steps,Power,yoga,Floor Exercise,Stretch Bands,Kickboxing,TRF,Functional Training,Crossfit Training,Mini hurdles for a period of 3 months</font></p><ul >
+                <li><a href="#" title="gym"> gym</a></li>
+                <li><a href="#" title="exercise"> exercise</a></li>
+                <li><a href="#" title="weight lose"> weight loss</a></li>
+                <li><a href="#" title="weight training"> weight training</a></li>
+                <li><a href="#" title="floor training"> floor exercise</a></li>
+                <li><a href="#" title="cardio"> cardio</a></li>
+                <li><a href="#" title="steam"> steam</a></li>
+                <li><a href="#" title="shower"> shower</a></li>
+                <li><a href="#" title="yoga"> yoga</a></li>
+                <li><a href="#" title="aerobics"> aerobics</a></li>
+                <li><a href="#" title="kickboxing"> kickboxing </a></li>
+                <li><a href="#" title="strength training"> strength training</a></li>
+                </ul>
+              </td>
+
+              <td style="background-color:lenen;border-style:ridge;" width="25%"><font  face="arial" size="5px">
+                <a href="#" title="Monthly Plan">Monthly  Plan</a></font>
+                <p style="color: cadetblue;"> <font  face="arial" size="5px">&#8377; 2,500 for 1 month(s)</font> </p>
+                <p style="color:palevioletred;"> <font   size="3px">It includes Weight,Training,Cardio,Steam Bath,Aerobic Steps,Power,yoga,Floor Exercise,Stretch Bands,Kickboxing,TRF,Functional Training,Crossfit Training,Mini hurdles for a period of 3 months</font></p><ul >
+                    <li><a href="#" title="gym"> gym</a></li>
+                    <li><a href="#" title="exercise"> exercise</a></li>
+                    <li><a href="#" title="weight lose"> weight loss</a></li>
+                    <li><a href="#" title="weight training"> weight training</a></li>
+                    <li><a href="#" title="floor training"> floor exercise</a></li>
+                    <li><a href="#" title="cardio"> cardio</a></li>
+                    <li><a href="#" title="steam"> steam</a></li>
+                    <li><a href="#" title="shower"> shower</a></li>
+                    <li><a href="#" title="yoga"> yoga</a></li>
+                    <li><a href="#" title="aerobics"> aerobics</a></li>
+                    <li><a href="#" title="kickboxing"> kickboxing </a></li>
+                    <li><a href="#" title="strength training"> strength training</a></li>
+                    </ul>
+              </td> 
+                
+            </tr>
+            </table>
+
+  </div>
+
+                                                      <!----------- Contact Us ------------>
+
+    <div id="contact">
+        <h1 style=" font-family: 'Kaushan Script', cursive;">Contact Us</h1>
+        <div class="container">
+            <div class="box-1">
+                <h2>Keep In Touch</h2>
+                <p>Start here to find the Gold’s Gym nearest you along with location information, amenities and hours.
+                 Explore membership pricing, join online options, class schedules and more.</p>
+                <p><i class="fa fa-user" aria-hidden="true" id="icon" style="font-size: 35px; margin-top: 30px;" ></i>Jiyaul Haq Shaik</p>
+                <p><i class="fa fa-phone"style="font-size: 35px;" id="icon" ></i>7209825964  </p>
+                <p><i class="fa fa-map-marker" style="font-size:35px;" id="icon" ></i>Gandhi Nagar</p>
+                <p><i class="fa fa-envelope" style="font-size: 30px;" id="icon"></i>Shaik80@gmail.com </p>
+            </div>
+
+            <div class="box-2">
+                <h2>Send Message</h2>
+                <form action="c/thank you.png">
+                <input type="text" placeholder="Name" id="fname" name="fname">
+                <input type="email" placeholder="Email Id" style="margin-left: 0px; margin-top: 5px;">
+                <input type="text" placeholder="Subject" style="width: 550px; margin-top: 5px;"><br>
+                <textarea  cols="33" rows="3" style="margin-left: 20px; margin-top: 10px; border-radius: 8px; padding: 20px; font-size: 25px;"></textarea>
+                <input type="submit" value="Send Message">
+                </form>                   <hr> 
+            </div>
+        </div>
+    </div>
+
+
+                                                       <!----------- FAQs ------------>
+
+<div id="F">
+<h1><i>FREUENTLY ASKED QUESTIONS ABOUT GOLD'S GYM</i></h1>
+<p style="font-size: 19px;font-family: bhaloo bhai;padding-left:50px;">
+<b><span style="color:blue">Q: Do I have to wear a mask when I workout/visit the gym?</span></b><br>
+A: We are following state and local guidelines regarding the use of PPE in the clubs. If masks are required by local guidelines,<br>please plan to bring and wear a mask accordingly.<br><br>
+<b><span style="color:blue">Q: What are the rules/Code of Conduct related to my membership?</span></b><br>
+A: Our updated Code of Conduct can be found here. All Members are required to sign the updated Code of Conduct prior to resuming workouts and guests to the gym
+ (if applicable) will be required to sign it as well. Specifically, all Members are required to abide by the new Code of Conduct in order to maintain their membership. Failure to comply could result in revocation of membership privileges.<br><br>
+
+<b><span style="color:blue">Q: What amenities are available for my gym visit?</span></b><br>
+A: Kids Clubs, Steam Rooms, Spas, Saunas, Basketball Courts, Racquetball Courts Smoothie Bars and Pools are currently unavailable in all locations. Details on when these services resume will be sent via email as soon as we have open dates. If you need to update your email address, please go to 'Manage Membership' in the Gold's Gym Member App, or see a Team Member for assistance.<br><br>
+<b><span style="color:blue">Q: What procedures have you put in place for safety?</span></b><br>
+A: Our teams are undertaking extensive measures to ensure Member and Team Member safety. Each gym has implemented state and local guidelines for occupancy, personal protective equipment (PPE) and sanitation.
+
+<b>Measures that we are implementing include but are not limited to:</b>
+• New Code of Conduct requiring those using the gym to abide by the enhanced Gold’s Gym cleaning standards and practice safe physical distancing while using the gym• Masks required for all Team Members• Touchless scan for no-contact member check-in• Safety signage and reminders throughout the gym• Staggered cardio and strength machines that are in operation by at least 6 feet to promote physical distancing•
+ Zone cleanings throughout each day in all areas of the gym, including all high touch surfaces, door handles, railings and common areas throughout the gym• Required equipment wipe-down by members after each use with the medical-grade cleaners provided• Professional third-party, after-hours cleaning including electrostatic commercial spraying for deep sanitization• Increased cleaning protocols in the locker rooms</p>
+
+
+ </div>
+</body>
+</html>
