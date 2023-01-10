@@ -1,1 +1,2 @@
 # Gym-website
+Gold’s Gym Website The aim of this project is to prepare a gym website using Javascript,  css and html.  It is a group project. There are two members in our group. My role in this project is to make Home page , Contact  info Page, and FAQs page.This project is designed to facilitate a gym and fitness center. This website is designed in such a way that every customer can easily access the information.
